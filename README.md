@@ -29,10 +29,11 @@ Dₘ is the value of the partial derivative with respect to m. Similarly lets fi
 
 
 Derivative with respect to c
-3. Now we update the current value of m and c using the following equation:
+3. Now we update the current value of w and c using the following equation:
 
 
 4. We repeat this process until our loss function is a very small value or ideally 0 (which means 0 error or 100% accuracy). The value of m and c that we are left with now will be the optimum values.
 
 Now going back to our analogy, m can be considered the current position of the person. D is equivalent to the steepness of the slope and L can be the speed with which he moves. Now the new value of m that we calculate using the above equation will be his next position, and L×D will be the size of the steps he will take. When the slope is more steep (D is more) he takes longer steps and when it is less steep (D is less), he takes smaller steps. Finally he arrives at the bottom of the valley which corresponds to our loss = 0.
-Now with the optimum value of m and c our model is ready to make predictions !
+Now with the optimum value of w and c our model is ready to make predictions !<br>
+ found by gradient descent: (199.9929,100.0116)
